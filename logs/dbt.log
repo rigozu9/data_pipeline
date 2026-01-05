@@ -1,0 +1,34 @@
+[0m16:40:49.173673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb370d79ab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb370c47370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb36fe8f910>]}
+
+
+============================== 16:40:49.176874 | 0fb159ee-bf88-4ee1-af9c-e417a07ada5e ==============================
+[0m16:40:49.176874 [info ] [MainThread]: Running with dbt=1.11.2
+[0m16:40:49.177537 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/home/rigozu/.dbt', 'write_json': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'use_colors': 'True', 'debug': 'False', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'introspect': 'True', 'indirect_selection': 'eager', 'static_parser': 'True', 'cache_selected_only': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init', 'log_path': 'logs'}
+[0m16:40:49.187238 [info ] [MainThread]: Creating dbt configuration folder at /home/rigozu/.dbt
+[0m16:40:59.592635 [debug] [MainThread]: Starter project path: /home/rigozu/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m16:40:59.595617 [info ] [MainThread]: 
+Your new dbt project "data_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:40:59.596097 [info ] [MainThread]: Setting up your profile.
+[0m16:41:21.392680 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m16:41:21.393330 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m16:41:21.393784 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m16:44:32.297922 [info ] [MainThread]: Profile data_pipeline written to /home/rigozu/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:44:32.301397 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 223.2048, "process_in_blocks": "6808", "process_kernel_time": 0.165172, "process_mem_max_rss": "118904", "process_out_blocks": "96", "process_user_time": 1.930018}
+[0m16:44:32.303423 [debug] [MainThread]: Command `dbt init` succeeded at 16:44:32.303084 after 223.21 seconds
+[0m16:44:32.304728 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb370d79ab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb36fe8ff10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb36fd47580>]}
+[0m16:44:32.306104 [debug] [MainThread]: Flushing usage events
+[0m16:44:32.947179 [debug] [MainThread]: An error was encountered while trying to flush usage events
